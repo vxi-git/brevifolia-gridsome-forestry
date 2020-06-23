@@ -7,10 +7,12 @@ sections:
 - type: heading
   label: Content
 - type: directory
-  path: src/assets/content/porfolio
+  path: src/assets/content/blog/porfolio
   label: Porfolio
   create: all
   match: "**/*"
+  templates:
+  - porfolio
 - type: directory
   path: src/assets/content/blog
   label: Blog Posts
