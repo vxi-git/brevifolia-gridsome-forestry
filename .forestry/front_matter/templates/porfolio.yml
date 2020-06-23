@@ -8,9 +8,6 @@ fields:
 - type: text
   name: author
   label: author
-- type: datetime
-  name: date
-  label: date
 - type: file
   name: hero_image
   label: hero_image
